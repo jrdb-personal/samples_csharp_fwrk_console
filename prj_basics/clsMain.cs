@@ -5,7 +5,7 @@ using System.Text;
 
 namespace prj_basics
 {
-    class Program
+    class clsMain
     {
         static void Main(string[] args)
         {
