@@ -81,8 +81,27 @@ namespace prj_basics
             parent.showValue();
             child.showValue();
 
+            Clerk objClerk = new Clerk();
+            Supervisor objSupervisor = new Supervisor();
+
+            Console.WriteLine("Clerk salary is {0}", getSalary(objClerk));
+            Console.WriteLine("Supervisor salary is {0}", getSalary(objSupervisor));
+
+
+            //oop polymorphism - virtual function overrides
+            Employee objEmployee = new Employee();
+            objEmployee = new Clerk();
+            Console.WriteLine("Employee title is {0}", objEmployee.showTitle());
+            objEmployee = new Supervisor();
+            Console.WriteLine("Employee title is {0}", objEmployee.showTitle());
 
             return 0;
         }
+
+        static decimal getSalary(IComputeSalary employee)
+        {
+            return employee.computeSalary();
+        }
+
     }
 }

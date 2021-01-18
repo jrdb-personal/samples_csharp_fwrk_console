@@ -15,7 +15,7 @@ namespace prj_basics_oop_concepts
 
     class SampleChildClass : SampleParentClass
     {
-        
+
     }
 
     interface IComputeSalary
@@ -28,7 +28,15 @@ namespace prj_basics_oop_concepts
         string checkPromotion();
     }
 
-    class Employee : IComputeSalary, ISetPromotion
+    class Employee
+    {
+        public virtual string showTitle()
+        {
+            return "Sir/Ma'am";
+        }
+    }
+
+    class Clerk : Employee, IComputeSalary, ISetPromotion
     {
         public decimal computeSalary()
         {
@@ -38,6 +46,29 @@ namespace prj_basics_oop_concepts
         public string checkPromotion()
         {
             return "for promotion";
+        }
+
+        public override string showTitle()
+        {
+            return "Clerk";
+        }
+    }
+
+    class Supervisor : Employee, IComputeSalary, ISetPromotion
+    {
+        public decimal computeSalary()
+        {
+            return 200;
+        }
+
+        public string checkPromotion()
+        {
+            return "not for promotion";
+        }
+
+        public override string showTitle()
+        {
+            return "Supervisor";
         }
     }
 
