@@ -1,0 +1,6 @@
+D:\Career\01 - Professional Work\01 - Source Codes\5. C#\samples_csharp_fwrk_console\prj_basics\bin\Debug\prj_basics.exe
+D:\Career\01 - Professional Work\01 - Source Codes\5. C#\samples_csharp_fwrk_console\prj_basics\bin\Debug\prj_basics.pdb
+D:\Career\01 - Professional Work\01 - Source Codes\5. C#\samples_csharp_fwrk_console\prj_basics\obj\Debug\prj_basics.csprojAssemblyReference.cache
+D:\Career\01 - Professional Work\01 - Source Codes\5. C#\samples_csharp_fwrk_console\prj_basics\obj\Debug\prj_basics.csproj.CoreCompileInputs.cache
+D:\Career\01 - Professional Work\01 - Source Codes\5. C#\samples_csharp_fwrk_console\prj_basics\obj\Debug\prj_basics.exe
+D:\Career\01 - Professional Work\01 - Source Codes\5. C#\samples_csharp_fwrk_console\prj_basics\obj\Debug\prj_basics.pdb
